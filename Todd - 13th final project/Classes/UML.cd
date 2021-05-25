@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Todd.Game1" Collapsed="true">
+    <Position X="10.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAFEAAAABADwAAAAAAAAAAAAAAAAgAAAAAAAACABQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.States.State" Collapsed="true">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAIAAAAAAAgABAAAAAABAQAAEAAwIAAAAAAAgAAQ=</HashCode>
+      <FileName>States\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.States.CTFState" Collapsed="true">
+    <Position X="3.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgIAAQAAEIkAIIAAQABAAQAAAAAACAAAAAACQIAA=</HashCode>
+      <FileName>States\CTFState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.States.ComingSoonState" Collapsed="true">
+    <Position X="3.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIgAAAAAAAAAAQAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>States\ComingSoonState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.States.GameMenuState" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAIICAAIAAQAAAAAQCARAAAAAAIAQ=</HashCode>
+      <FileName>States\GameMenuState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.States.GameState" Collapsed="true">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States\GameState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.States.HowToPlayState" Collapsed="true">
+    <Position X="3.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIgAAAIAAgAAAQAAAAAQCARAAAAAAIAQ=</HashCode>
+      <FileName>States\HowToPlayState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.States.LevelChooseState" Collapsed="true">
+    <Position X="3.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAAIgAAAEAAAACAQAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>States\LevelChooseState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.States.LoadingState" Collapsed="true">
+    <Position X="3.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAIAAAAAAAgCAAACAAAABQEAAAAAAACAAAAAAIAA=</HashCode>
+      <FileName>States\LoadingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.States.MainMenuState" Collapsed="true">
+    <Position X="3.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAIAAQIgAAAAAAAAAAQAABAQAAAAAAAAAAIAA=</HashCode>
+      <FileName>States\MainMenuState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.States.miniGameMenuState" Collapsed="true">
+    <Position X="3.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAIACAAAAAQAAAAAACAAAQAAAAIAA=</HashCode>
+      <FileName>States\miniGameMenuState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.States.PrizesState" Collapsed="true">
+    <Position X="3.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAYAAAAAAAAAIgAAAAAAAAAAQAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>States\PrizesState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.States.ScoresState" Collapsed="true">
+    <Position X="3.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIgAAAAAAAAAAQAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>States\ScoresState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.States.SlotMachineState" Collapsed="true">
+    <Position X="3.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAYAiIAAAAAAAgAAIACAAAAAQAAAEIECAAAAAAIAIQg=</HashCode>
+      <FileName>States\SlotMachineState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.States.StoreState" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAAEAJgAAIAAAAgGAYAAAAQACAAAABAAAIAA=</HashCode>
+      <FileName>States\StoreState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.States.SurvivalState" Collapsed="true">
+    <Position X="3.5" Y="8" Width="1.5" />
+    <InheritanceLine Type="Todd.States.State" FixedFromPoint="true">
+      <Path>
+        <Point X="4.5" Y="2.562" />
+        <Point X="4.5" Y="2.937" />
+        <Point X="5.375" Y="2.937" />
+        <Point X="5.375" Y="8.346" />
+        <Point X="5" Y="8.346" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States\SurvivalState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.Sprites.Bomb" Collapsed="true">
+    <Position X="10.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAQAAAgBAAAAQACAAABAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Sprites\Bomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.Sprites.Button" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAIQAEAAAgAiKIAAQgAAAQAgA=</HashCode>
+      <FileName>Sprites\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.Sprites.Coin" Collapsed="true">
+    <Position X="8.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAAAgABAAAQACADAAABAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Sprites\Coin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.Sprites.DrawablObject" Collapsed="true">
+    <Position X="10.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQgAgAAAACAICACAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprites\DrawablObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.Sprites.EditTextButton" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprites\EditTextButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.Sprites.Enemy" Collapsed="true">
+    <Position X="8.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oQYABgAAAAAAAgABAAAAICgDAAAAIhAAAAQAIAAAGAA=</HashCode>
+      <FileName>Sprites\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.Sprites.Platform" Collapsed="true">
+    <Position X="10.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAICAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprites\Platform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.Sprites.Sprite" Collapsed="true">
+    <Position X="10.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQQAAAAAAQAAAgAhAAAAACADEAAAABAAAAQAgAAAAAA=</HashCode>
+      <FileName>Sprites\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.Moduls.Animation" Collapsed="true">
+    <Position X="8.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAABAAAAAAAABAAAAAAAAAAAIAAAAACA=</HashCode>
+      <FileName>Moduls\Animation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.Moduls.CoinsAndHearts" Collapsed="true">
+    <Position X="8.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIgBAAAA=</HashCode>
+      <FileName>Moduls\CoinsAndHearts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.Moduls.CTF" Collapsed="true">
+    <Position X="8.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Moduls\CTF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.Moduls.Input" Collapsed="true">
+    <Position X="8.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Moduls\Input.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.Moduls.Score" Collapsed="true">
+    <Position X="10.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQYAAAA=</HashCode>
+      <FileName>Moduls\Score.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.Managers.AnimationManager" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAgAgAAAAAAAAgAABAAAAoAAAAAAAAAA=</HashCode>
+      <FileName>Managers\AnimationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.Managers.CoinsAndHeartsManager" Collapsed="true">
+    <Position X="10.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAgIAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAABAABA=</HashCode>
+      <FileName>Managers\CoinsAndHeartsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.Managers.ScoreManager" Collapsed="true">
+    <Position X="8.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAIIAAAAAIAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\ScoreManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Todd.Camera.Camera_" Collapsed="true">
+    <Position X="8.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAABAAAAAAAAABAAAAAEAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Camera\Camera_.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
